@@ -14,7 +14,7 @@ created: 2025-07-01T12:28:00
 	* `192.168.100.1`
 	* `255.255.255.0`
 	* in the above mentioned IP and SM , Class C address consist of 3 *network portion* and 1 *Host portion*
-	* `how to know that ? , submask consist of 3 (255) or --> 1`
+	* `how to know that ? , subnetmask consist of 3 (255) or --> 1`
 	* `255.255.255.0` making it 3 *network portion* and 1 *host portion*
 
 
@@ -22,7 +22,7 @@ created: 2025-07-01T12:28:00
 ---
 
 * ### Valid Range 
-	* the valid range will be from `192.168.100.1 - 192.168.100.255`
+	* the valid range will be from `192.168.100.1 - 192.168.100.254`
 	* *host* portion matters alot when coming to the ranges 
 	* as mentioned earlier the differ of *host* portion is done by `subnet mask`
 
