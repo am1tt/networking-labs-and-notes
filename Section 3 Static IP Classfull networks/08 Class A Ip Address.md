@@ -25,3 +25,7 @@ created: 2025-07-03T14:15:00
 * ### First & Last Host
 	* First Host : `10.0.0.1`
 	* Last host : `10.255.255.254`
+	
+* ### Calculation Hosts In class A
+	* `2(base) - 24(bits,host) - 2(bd , NID) = 16777214`
+	* this states class A contains a maximum amount of host than any *class*
